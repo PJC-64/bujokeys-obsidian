@@ -4,17 +4,17 @@ import {
   Plugin
 } from "obsidian";
 
-export default class HotkeysPlus extends Plugin {
+export default class BuJoKeysPlus extends Plugin {
   onInit() { }
 
   onload() {
-    console.log("Loading Hotkeys++ plugin");
+    console.log("Loading BuJoKeys++ plugin");
 
     this.addCommand({
       id: "better-toggle-todo",
       name: "Toggle to-do lists",
       callback: () => this.toggleTodos(),
-      hotkeys: [
+      BuJoKeys: [
         {
           modifiers: ["Mod"],
           key: "m",
@@ -26,7 +26,7 @@ export default class HotkeysPlus extends Plugin {
       id: "toggle-bullet-number",
       name: "Toggle line to bulleted or numbered lists",
       callback: () => this.toggleLists(),
-      hotkeys: [
+      BuJoKeys: [
         {
           modifiers: ["Mod", "Shift"],
           key: "m",
@@ -38,7 +38,7 @@ export default class HotkeysPlus extends Plugin {
       id: "toggle-block-quote",
       name: "Toggle line to block quote",
       callback: () => this.toggleBlockQuote(),
-      hotkeys: [
+      BuJoKeys: [
         {
           modifiers: ["Mod"],
           key: "<",
@@ -50,7 +50,7 @@ export default class HotkeysPlus extends Plugin {
       id: "toggle-embed",
       name: "Toggle line to embed internal links",
       callback: () => this.toggleEmbed(),
-      hotkeys: [
+      BuJoKeys: [
         {
           modifiers: ["Mod", "Shift"],
           key: "1",
@@ -147,7 +147,7 @@ export default class HotkeysPlus extends Plugin {
   }
 
   onunload() {
-    console.log("Unloading Hotkeys++ plugin");
+    console.log("Unloading BuJoKeys++ plugin");
   }
 
   getSelectedText(editor: Editor) {

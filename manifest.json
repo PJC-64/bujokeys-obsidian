@@ -1,7 +1,7 @@
 {
-  "id": "hotkeysplus-obsidian",
-  "name": "Hotkeys++",
-  "description": "Additional hotkeys to do common things in Obsidian",
+  "id": "bujokeysplus-obsidian",
+  "name": "BujoKeys++",
+  "description": "Additional bujokeys to do common things in Obsidian",
   "version": "0.2.5",
   "author": "Argentina Ortega Sainz",
   "authorUrl": "",

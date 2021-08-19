@@ -1,7 +1,7 @@
 {
-  "name": "hotkeysplus-obsidian",
+  "name": "bujokeysplus-obsidian",
   "version": "0.9.7",
-  "description": "Hotkeys to do common stuff in Obsidian",
+  "description": "BujoKeys to do common stuff in Obsidian",
   "main": "main.js",
   "scripts": {
     "dev": "rollup --config rollup.config.js -w",

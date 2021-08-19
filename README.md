@@ -1,6 +1,6 @@
-# hotkeysplus-obsidian
+# bujokeysplus-obsidian
 
-This repository contains a few shortcuts that I use with [Obsidian](https://obsidian.md/). The defaults hotkeys are:
+This repository contains a few shortcuts that I use with [Obsidian](https://obsidian.md/). The defaults bujokeys are:
 
 | Hotkey                                            | Action                                      | Author                                      |
 | ------------------------------------------------- | ------------------------------------------- | ------------------------------------------- |
@@ -18,4 +18,4 @@ This repository contains a few shortcuts that I use with [Obsidian](https://obsi
 
 ## Installing
 
-Unzip the [latest release](https://github.com/argenos/hotkeysplus-obsidian/releases/latest) into your `<vault>/.obsidian/plugins/` folder.
+Unzip the [latest release](https://github.com/argenos/bujokeysplus-obsidian/releases/latest) into your `<vault>/.obsidian/plugins/` folder.

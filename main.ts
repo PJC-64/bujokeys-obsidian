@@ -11,8 +11,8 @@ export default class BuJoKeysPlus extends Plugin {
     console.log("Loading BuJoKeys++ plugin");
 
     this.addCommand({
-      id: "better-toggle-todo",
-      name: "Toggle to-do lists",
+      id: "bujo-toggle-todo",
+      name: "Toggle BuJo to-do lists",
       callback: () => this.toggleTodos(),
       BuJoKeys: [
         {
